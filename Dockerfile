@@ -14,7 +14,10 @@ ENV LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8
 ENV APP_DIR="/app"
 ENV STEAMCMD_DIR="${APP_DIR}/Steam/steamcmd"
 ENV SERVER_DIR="${APP_DIR}/server"
+# Startup variables
 ENV GAME_PARAMS="-num_edicts 3072 +sv_lan 1 -port 27015 -console -debug;"
+ENV GAME_NAME=""
+ENV GAME_PASSWORD=""
 
 # Set up user environment
 RUN groupadd -r abc && \
