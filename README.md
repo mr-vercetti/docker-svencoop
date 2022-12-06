@@ -1,4 +1,6 @@
 # mr-vercetti/docker-svencoop
+[![Build Status](https://drone.vercetti.cc/api/badges/mr-vercetti/docker-svencoop-server/status.svg)](https://drone.vercetti.cc/mr-vercetti/docker-svencoop-server)
+
 Dedicated [Sven Co-Op](https://www.svencoop.com/manual/startup.html) server in a Docker container.
 
 ![Sven Co-op logo](https://raw.githubusercontent.com/mr-vercetti/docker-svencoop-server/master/.misc/svencoop-logo.jpg "Sven Co-op logo")
